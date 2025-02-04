@@ -730,3 +730,29 @@ footer p{
     color: white;
 }
 
+.scrollbar::-webkit-scrollbar {
+    height: 8px;
+    /* Height of the scrollbar */
+  
+  }
+  
+  .scrollbar::-webkit-scrollbar-track {
+    background: #000000;
+    /* Light gray background */
+    border-radius: 10px;
+    /* Rounded corners for the track */
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    /* Darker color for the thumb */
+    border-radius: 10px;
+    border: 2px solid #f0f0f0;
+    /* Creates space around the thumb */
+  }
+  
+  .scrollbar:hover::-webkit-scrollbar-thumb {
+    background-color: #1f2937;
+    /* Darker color on hover */
+  }
+  
