@@ -214,12 +214,15 @@ body {
 }
 
 .project {
-    padding-inline: 20%;
+    /* border: 2px solid red; */
+    padding-inline: 10%;
     padding-block: 2%;
+    /* height: 500px; */
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
     /* align-items: center; */
 
 }
@@ -756,4 +759,14 @@ footer p{
     background-color: #1f2937;
     /* Darker color on hover */
   }
+  
+
+
+
+
+
+  /* pepsi */
+
+
+  
   
